@@ -1,0 +1,163 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    background: #fff;
+    text-align: center;
+}
+
+/* container section */
+.container-fluid {
+    text-align: left;
+    padding: 3% 15% 7%;
+}
+
+h1 {
+    font-family: "Montserrat-Extra-Bold", sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.5;
+    margin: 0;
+}
+
+p#head-text {
+    font-size: 1.3rem;
+    margin-top: 1.5rem;
+}
+
+h2 {
+    font-family: "Montserrat-Extra-Bold", sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 1.5;
+    margin-bottom: 6.5rem;
+}
+
+h3 {
+    font-family: "Montserrat-Extra-Bold", sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+h4 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10%;
+}
+
+h5 {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+/* header section */
+.header-img {
+    width: 120%;
+    margin: 0 auto;
+    position: absolute;
+}
+
+@media (max-width: 993px) {
+    #title {
+        text-align: center;
+    }
+
+    .header-img {
+        width: 120%;
+        position: relative;
+    }
+}
+
+/* Navbar section */
+.navbar {
+    padding-left: 0;
+}
+
+.navbar-brand {
+    font-size: 2.5rem;
+    font-family: "Montserrat-Bold", sans-serif;
+}
+
+.nav-item {
+    font-size: 1.2rem;
+    color: #f5f5f5;
+    margin: 0 20px;
+}
+
+/* Title Section */
+#title {
+    color: #fff;
+    background: #b993d6; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+        to top,
+        #8ca6db,
+        #b993d6
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+        to top,
+        #8ca6db,
+        #b993d6
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 2% 5%;
+}
+
+/* Services Section */
+#services {
+    text-align: center;
+    padding: 7% 7%;
+}
+
+.service-page {
+    padding: 2rem;
+}
+
+.service-img {
+    width: 18%;
+}
+
+.description {
+    text-align: center;
+    padding: 5% 10%;
+    line-height: 1.6;
+}
+
+@media (max-width: 1000px) {
+    .angle-btn {
+        padding-top: 20rem;
+    }
+}
+
+/* message section */
+#message {
+    background: #8ca6db;
+    margin: 7% 0 0;
+    color: #fff;
+    padding: 5% 15%;
+    text-align: center;
+}
+
+/* Address Section */
+.address {
+    background: #8ca6db;
+    text-align: center;
+}
+
+.address p {
+    color: #fff;
+    font-weight: 400;
+}
+
+@media (max-width: 767px) {
+    .address-text {
+        padding: 1.5rem 0;
+    }
+}
+
+i {
+    margin-right: 1rem;
+}
+
+/* Footer section */
+#footer .container-fluid{
+    text-align: center;
+    padding: 3% 15%;
+}
