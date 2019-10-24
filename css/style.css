@@ -4,26 +4,36 @@ body {
     text-align: center;
 }
 
+/* Title Section */
+#title {
+    color: #fff;
+    background: #b993d6; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+        to top,
+        #8ca6db,
+        #b993d6
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+        to top,
+        #8ca6db,
+        #b993d6
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 .ghcs {
     padding: 0;
 }
 
-.ghcs h1,.ghcs p {
+.ghcs h1,
+.ghcs p {
     margin-top: 3rem;
     margin-left: 0.9rem;
 }
-
 
 /* container section */
 .container-fluid {
     text-align: left;
     padding: 3% 15% 7%;
-}
-
-@media (max-width:576px) {
-    #title div.container-fluid {
-        padding: 0;
-    }
 }
 
 h1 {
@@ -86,6 +96,7 @@ h5 {
 /* Navbar section */
 .navbar {
     padding-left: 0;
+    padding-right: 0;
 }
 
 .navbar-brand {
@@ -97,23 +108,6 @@ h5 {
     font-size: 1.2rem;
     color: #f5f5f5;
     margin: 0 20px;
-}
-
-/* Title Section */
-#title {
-    color: #fff;
-    background: #b993d6; /* fallback for old browsers */
-    background: -webkit-linear-gradient(
-        to top,
-        #8ca6db,
-        #b993d6
-    ); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(
-        to top,
-        #8ca6db,
-        #b993d6
-    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    padding: 2% 5%;
 }
 
 /* Services Section */
@@ -173,7 +167,7 @@ i {
 }
 
 /* Footer section */
-#footer .container-fluid{
+#footer .container-fluid {
     text-align: center;
     padding: 3% 15%;
 }
@@ -217,7 +211,7 @@ section .section-title {
     -o-transform: rotateY(0deg);
     -ms-transform: rotateY(0deg);
     transform: rotateY(0deg);
-    border-radius: .25rem;
+    border-radius: 0.25rem;
 }
 
 .image-flip:hover .frontside,
@@ -253,7 +247,7 @@ section .section-title {
     position: absolute;
     top: 0;
     left: 0;
-    background: #eee;;
+    background: #eee;
     -webkit-transform: rotateY(-180deg);
     -moz-transform: rotateY(-180deg);
     -o-transform: rotateY(-180deg);
@@ -302,4 +296,3 @@ section .section-title {
     height: 120px;
     border-radius: 50%;
 }
-
